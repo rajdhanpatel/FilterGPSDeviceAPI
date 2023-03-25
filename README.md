@@ -1,6 +1,7 @@
 ## FilterGPSDeviceAPI
 ### API Details 
 GET: http://tether-server.freighttiger.com/connect/filter-location
+### Demo:- https://drive.google.com/file/d/1RcDX3H_CbDhOmqUdfV2M8o3LkizGLwr2/view?usp=sharing 
 ### Requirement Analysis
 All the Vehicles of Samrat Carrier should be tracked on GPS. Sometimes LSP does not pass the five required field like latitude, longitude, speed, device time, and vehicle number so they want the remaining vehicle should be tracked on GPS which have 5 required field. Our FT system tracking serivice is designed in such a way that if there will be a single field missing out of five required fields then it will fail for all vehicles instead of a single vehicle.
 
